@@ -30,7 +30,6 @@ export const NewMovie: React.FC<Props> = ({ onAdd }) => {
 
     const newMovie: Movie = {
       ...values,
-      title: values.title,
     };
 
     onAdd(newMovie);
